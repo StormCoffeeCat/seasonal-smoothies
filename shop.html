@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Noe ice-cream | Shop</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+</head>
+
+<body style="background-color: #FFE8CB;">
+
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="assets/logo.png" alt="logo" class="logo" height="70px"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+
+            </nav>
+        </div>
+    </header>
+
+
+<! can't believe how long it took me to figure out how to put a pound sign>
+    <div class="card">
+  		<img src="assets/smooth.jpg" alt="smooth" style="width:100%">
+  		<h1>Delicious Smoothie</h1>
+
+<! ignore my bad javascript this doesn't do anything>
+        <script>
+            let pound = '&pound';
+            let price = '420.69';
+            let conc = pound.concat(price);
+            console.log(conc)
+        </script>
+
+        <p class="price">&pound420.69</p>
+  		<p>Smoothie that tastes good</p>
+  		<p><button>Add to Cart</button></p>
+	</div>
+<!-------------------------------------------------------------------------------->
+    <div class="card">
+  		<img src="assets/smooth2.jpg" alt="othersmooth" style="width:100%">
+  		<h1>Other Delicious Smoothie</h1>
+
+        <script>
+            let pound = '&pound';
+            let price = '420.69';
+            let conc = pound.concat(price);
+            console.log(conc);
+        </script>
+
+        <p class="price">&pound694.20</p>
+  		<p>Another smoothie that tastes good</p>
+  		<p><button>Add to Cart</button></p>
+	</div>
+</body>
+</html>
